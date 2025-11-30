@@ -50,6 +50,15 @@ nav a:hover {
   color: #1a1a1a;
 }
 
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+
 section {
   padding: 50px 20px;
   max-width: 900px;
