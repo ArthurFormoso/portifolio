@@ -59,6 +59,33 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+
+.projeto a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projeto a:hover {
+  color: #e6e6e6;
+  text-decoration: underline;
+}
+
+
+.projeto-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.projeto-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
 section {
   padding: 50px 20px;
   max-width: 900px;
